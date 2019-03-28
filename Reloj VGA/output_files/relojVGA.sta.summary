@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -7.279
+TNS   : -667.592
+
+Type  : Slow 1200mV 85C Model Setup 'Displayer:DSP1|pclk'
+Slack : -2.623
+TNS   : -41.169
+
+Type  : Slow 1200mV 85C Model Setup 'KeyDebouncer:KD4|button_out_buffer'
+Slack : -0.609
+TNS   : -1.185
+
+Type  : Slow 1200mV 85C Model Setup 'KeyDebouncer:KD1|clk5ms'
+Slack : -0.028
+TNS   : -0.028
+
+Type  : Slow 1200mV 85C Model Setup 'KeyDebouncer:KD4|clk5ms'
+Slack : -0.021
+TNS   : -0.021
+
+Type  : Slow 1200mV 85C Model Hold 'Displayer:DSP1|pclk'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'KeyDebouncer:KD4|button_out_buffer'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'KeyDebouncer:KD1|clk5ms'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'KeyDebouncer:KD4|clk5ms'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -279.391
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Displayer:DSP1|pclk'
+Slack : -1.403
+TNS   : -30.866
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KeyDebouncer:KD1|clk5ms'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KeyDebouncer:KD4|button_out_buffer'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KeyDebouncer:KD4|clk5ms'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -6.641
+TNS   : -598.370
+
+Type  : Slow 1200mV 0C Model Setup 'Displayer:DSP1|pclk'
+Slack : -2.325
+TNS   : -35.813
+
+Type  : Slow 1200mV 0C Model Setup 'KeyDebouncer:KD4|button_out_buffer'
+Slack : -0.479
+TNS   : -0.830
+
+Type  : Slow 1200mV 0C Model Setup 'KeyDebouncer:KD1|clk5ms'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'KeyDebouncer:KD4|clk5ms'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Displayer:DSP1|pclk'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'KeyDebouncer:KD4|button_out_buffer'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'KeyDebouncer:KD1|clk5ms'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'KeyDebouncer:KD4|clk5ms'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -279.391
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Displayer:DSP1|pclk'
+Slack : -1.403
+TNS   : -30.866
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KeyDebouncer:KD1|clk5ms'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KeyDebouncer:KD4|button_out_buffer'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KeyDebouncer:KD4|clk5ms'
+Slack : -1.403
+TNS   : -4.209
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.482
+TNS   : -174.965
+
+Type  : Fast 1200mV 0C Model Setup 'Displayer:DSP1|pclk'
+Slack : -0.508
+TNS   : -5.570
+
+Type  : Fast 1200mV 0C Model Setup 'KeyDebouncer:KD4|button_out_buffer'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'KeyDebouncer:KD1|clk5ms'
+Slack : 0.555
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'KeyDebouncer:KD4|clk5ms'
+Slack : 0.559
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Displayer:DSP1|pclk'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KeyDebouncer:KD4|button_out_buffer'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KeyDebouncer:KD1|clk5ms'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KeyDebouncer:KD4|clk5ms'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -232.829
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Displayer:DSP1|pclk'
+Slack : -1.000
+TNS   : -22.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KeyDebouncer:KD1|clk5ms'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KeyDebouncer:KD4|button_out_buffer'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KeyDebouncer:KD4|clk5ms'
+Slack : -1.000
+TNS   : -3.000
+
+------------------------------------------------------------
