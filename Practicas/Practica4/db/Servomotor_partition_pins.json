@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "control1",
+					"strict" : false
+				},
+				{
+					"name" : "control2",
+					"strict" : false
+				},
+				{
+					"name" : "clk1",
+					"strict" : false
+				},
+				{
+					"name" : "Inc1",
+					"strict" : false
+				},
+				{
+					"name" : "Pini1",
+					"strict" : false
+				},
+				{
+					"name" : "Pfin1",
+					"strict" : false
+				},
+				{
+					"name" : "Dec1",
+					"strict" : false
+				},
+				{
+					"name" : "Inc2",
+					"strict" : false
+				},
+				{
+					"name" : "Pfin2",
+					"strict" : false
+				},
+				{
+					"name" : "Pini2",
+					"strict" : false
+				},
+				{
+					"name" : "Dec2",
+					"strict" : false
+				},
+				{
+					"name" : "cambio",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

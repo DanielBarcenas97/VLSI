@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity generico is
+ port(
+	clk1: in std_logic;
+	Pini1 : in  STD_LOGIC;
+	Pfin1 : in  STD_LOGIC;
+	Inc1 : in  STD_LOGIC;
+	Dec1 : in  STD_LOGIC;
+	control : out  STD_LOGIC
+	Pini2 : in  STD_LOGIC;
+	Pfin2 : in  STD_LOGIC;
+	Inc2 : in  STD_LOGIC;
+	Dec2 : in  STD_LOGIC;
+	control2 : out  STD_LOGIC
+	
+	);
+end generico;
+
+architecture Behavorial of generico is
+	component divisor is
+		Port ( clk1 : in std_logic;
+					div_clk : out std_logic);
+	end component;
+	
+	component PWM is
+		Port( Reloj:in std_logic;
+				D: in std_logic;
+				S: in std_logic);
+	end component;			
+	
+	component Servomotor is
+		port(clk : in  STD_LOGIC;
+			  Pini : in  STD_LOGIC;
+			  Pfin : in  STD_LOGIC;
+			  Inc : in  STD_LOGIC;
+			  Dec : in  STD_LOGIC;
+			  control : out  STD_LOGIC)
+	end component;
+begin
+U1: divisor port map(clk1, reloj);
+U2: PWM port map (reloj, ancho, control1);
+U3: PWM port map (reloj, ancho, control2);
+U4: Servomotor port map (reloj,Pini1,Pfin1,Inc1,Dec1,control1);
+U5: Servomotor port map (reloj,Pini1,Pfin1,Inc1,Dec1,control1);
+end
+	
+end Behavorial
